@@ -19,5 +19,9 @@ pipeline {
                 sh 'echo Build completed successfully'
             }
         }
+        stage('pipeline completed'){
+            steps{
+                sh 'echo pipeline completed'
+            }
     }
 }
